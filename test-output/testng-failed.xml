@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Sundaykart POM Automation Suite]">
+  <listeners>
+    <listener class-name="com.alt.sundaykart.automation.listeners.ScreenShotListener"/>
+  </listeners>
+  <test name="Sundaykart Test(failed)">
+    <classes>
+      <class name="com.alt.sundaykart.automation.testcases.HomePageTestCases">
+        <methods>
+          <include name="setUpSundayKart"/>
+          <include name="closeTestCase"/>
+          <include name="closeBrowser"/>
+          <include name="loginToSundaykart"/>
+        </methods>
+      </class> <!-- com.alt.sundaykart.automation.testcases.HomePageTestCases -->
+    </classes>
+  </test> <!-- Sundaykart Test(failed) -->
+</suite> <!-- Failed suite [Sundaykart POM Automation Suite] -->
