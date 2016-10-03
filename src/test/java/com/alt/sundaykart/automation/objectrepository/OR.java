@@ -10,7 +10,7 @@ public class OR {
    public static final String userNameTxtField="username";
    public static final String passwordTxtField="password";
    public static final String loginBtn="login_btn";
-   public static final String userOptionsDrpdwn="results";
+   public static final String userOptionsDrpdwn="result";
    public static final String loginPagePopup = "//*[@id='loginForms']/div/div";
    public static final String cashBackPopUp = "//*[@id='popUpDiv']";
 	

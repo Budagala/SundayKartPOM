@@ -353,3 +353,84 @@ Session ID: 035b22cc-3df2-4806-82f9-9b71fdd7463d
 2016-09-28 09:51:43,827 INFO  [Log] X 
 2016-09-28 09:51:43,827 INFO  [Log] X 
 2016-09-28 09:51:43,827 INFO  [Log] X 
+2016-10-03 09:50:56,906 INFO  [Log] **************************************************************************************** 
+2016-10-03 09:50:56,965 INFO  [Log] **************************************************************************************** 
+2016-10-03 09:50:57,023 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 loginToSundaykart       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2016-10-03 09:50:57,024 INFO  [Log] **************************************************************************************** 
+2016-10-03 09:50:57,024 INFO  [Log] **************************************************************************************** 
+2016-10-03 09:50:57,024 ERROR [Log] Expection occured while executing test case:loginToSundaykartjava.lang.NullPointerException 
+2016-10-03 09:50:57,030 ERROR [Log] ***** Error loginToSundaykart test has failed ***** 
+2016-10-03 09:51:00,798 INFO  [Log] ***Placed screen shot in F:\SundaykartSelenium\Sundaykart-Automation-POM\Screenshots\ *** 
+2016-10-03 09:51:00,800 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2016-10-03 09:51:00,800 INFO  [Log] X 
+2016-10-03 09:51:00,800 INFO  [Log] X 
+2016-10-03 09:51:00,800 INFO  [Log] X 
+2016-10-03 09:51:00,800 INFO  [Log] X 
+2016-10-03 09:53:26,311 INFO  [Log] **************************************************************************************** 
+2016-10-03 09:53:26,318 INFO  [Log] **************************************************************************************** 
+2016-10-03 09:53:26,318 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 loginToSundaykart       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2016-10-03 09:53:26,318 INFO  [Log] **************************************************************************************** 
+2016-10-03 09:53:26,318 INFO  [Log] **************************************************************************************** 
+2016-10-03 09:53:26,320 ERROR [Log] Expection occured while executing test case:loginToSundaykartjava.lang.NullPointerException 
+2016-10-03 09:53:26,733 ERROR [Log] ***** Error loginToSundaykart test has failed ***** 
+2016-10-03 09:53:32,071 INFO  [Log] ***Placed screen shot in F:\SundaykartSelenium\Sundaykart-Automation-POM\Screenshots\ *** 
+2016-10-03 09:53:32,072 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2016-10-03 09:53:32,073 INFO  [Log] X 
+2016-10-03 09:53:32,073 INFO  [Log] X 
+2016-10-03 09:53:32,073 INFO  [Log] X 
+2016-10-03 09:53:32,073 INFO  [Log] X 
+2016-10-03 09:55:19,296 INFO  [Log] **************************************************************************************** 
+2016-10-03 09:55:19,297 INFO  [Log] **************************************************************************************** 
+2016-10-03 09:55:19,298 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 loginToSundaykart       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2016-10-03 09:55:19,298 INFO  [Log] **************************************************************************************** 
+2016-10-03 09:55:19,298 INFO  [Log] **************************************************************************************** 
+2016-10-03 09:55:19,298 ERROR [Log] Expection occured while executing test case:loginToSundaykartjava.lang.NullPointerException 
+2016-10-03 09:55:19,307 ERROR [Log] ***** Error loginToSundaykart test has failed ***** 
+2016-10-03 09:55:20,693 INFO  [Log] ***Placed screen shot in F:\SundaykartSelenium\Sundaykart-Automation-POM\Screenshots\ *** 
+2016-10-03 09:55:20,695 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2016-10-03 09:55:20,695 INFO  [Log] X 
+2016-10-03 09:55:20,695 INFO  [Log] X 
+2016-10-03 09:55:20,695 INFO  [Log] X 
+2016-10-03 09:55:20,695 INFO  [Log] X 
+2016-10-03 09:58:46,735 INFO  [Log] **************************************************************************************** 
+2016-10-03 09:58:46,736 INFO  [Log] **************************************************************************************** 
+2016-10-03 09:58:46,736 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 loginToSundaykart       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2016-10-03 09:58:46,736 INFO  [Log] **************************************************************************************** 
+2016-10-03 09:58:46,736 INFO  [Log] **************************************************************************************** 
+2016-10-03 09:58:53,201 ERROR [Log] Expection occured while executing test case:loginToSundaykartorg.openqa.selenium.StaleElementReferenceException: The element reference is stale. Either the element is no longer attached to the DOM or the page has been refreshed. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 75 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: 'unknown', revision: 'c7b525d', time: '2016-09-01 14:57:44 -0700'
+System info: host: 'Ashok-PC', ip: '192.168.0.10', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, appBuildId=20160823121617, version=, platform=XP, proxy={}, command_id=1, specificationLevel=0, acceptSslCerts=false, browserVersion=48.0.2, platformVersion=10.0, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=Firefox, takesScreenshot=true, takesElementScreenshot=true, platformName=Windows_NT, device=desktop}]
+Session ID: 218531ff-c407-4b4e-8828-73daff01fed6 
+2016-10-03 09:58:53,212 ERROR [Log] ***** Error loginToSundaykart test has failed ***** 
+2016-10-03 09:58:53,387 INFO  [Log] ***Placed screen shot in F:\SundaykartSelenium\Sundaykart-Automation-POM\Screenshots\ *** 
+2016-10-03 09:58:53,391 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2016-10-03 09:58:53,391 INFO  [Log] X 
+2016-10-03 09:58:53,391 INFO  [Log] X 
+2016-10-03 09:58:53,391 INFO  [Log] X 
+2016-10-03 09:58:53,391 INFO  [Log] X 
+2016-10-03 10:01:57,532 INFO  [Log] **************************************************************************************** 
+2016-10-03 10:01:57,533 INFO  [Log] **************************************************************************************** 
+2016-10-03 10:01:57,533 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 loginToSundaykart       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2016-10-03 10:01:57,533 INFO  [Log] **************************************************************************************** 
+2016-10-03 10:01:57,533 INFO  [Log] **************************************************************************************** 
+2016-10-03 10:02:06,346 INFO  [Log] Login in to sundaykart 
+2016-10-03 10:02:18,149 ERROR [Log] Expection occured while executing test case:loginToSundaykartorg.openqa.selenium.NoSuchElementException: Unable to locate element: #results (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.12 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: 'c7b525d', time: '2016-09-01 14:57:44 -0700'
+System info: host: 'Ashok-PC', ip: '192.168.0.10', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, appBuildId=20160823121617, version=, platform=XP, proxy={}, command_id=1, specificationLevel=0, acceptSslCerts=false, browserVersion=48.0.2, platformVersion=10.0, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=Firefox, takesScreenshot=true, takesElementScreenshot=true, platformName=Windows_NT, device=desktop}]
+Session ID: 353657a5-9201-4e8f-9080-429090f66831
+*** Element info: {Using=id, value=results} 
+2016-10-03 10:02:18,171 ERROR [Log] ***** Error loginToSundaykart test has failed ***** 
+2016-10-03 10:02:20,204 INFO  [Log] ***Placed screen shot in F:\SundaykartSelenium\Sundaykart-Automation-POM\Screenshots\ *** 
+2016-10-03 10:02:20,220 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2016-10-03 10:02:20,220 INFO  [Log] X 
+2016-10-03 10:02:20,220 INFO  [Log] X 
+2016-10-03 10:02:20,220 INFO  [Log] X 
+2016-10-03 10:02:20,221 INFO  [Log] X 

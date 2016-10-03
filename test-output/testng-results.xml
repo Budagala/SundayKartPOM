@@ -2,40 +2,44 @@
 <testng-results skipped="0" failed="1" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Sundaykart POM Automation Suite" duration-ms="68034" started-at="2016-09-28T04:20:35Z" finished-at="2016-09-28T04:21:43Z">
+  <suite name="Sundaykart POM Automation Suite" duration-ms="52588" started-at="2016-10-03T04:31:29Z" finished-at="2016-10-03T04:32:22Z">
     <groups>
     </groups>
-    <test name="Sundaykart Test" duration-ms="68034" started-at="2016-09-28T04:20:35Z" finished-at="2016-09-28T04:21:43Z">
+    <test name="Sundaykart Test" duration-ms="52588" started-at="2016-10-03T04:31:29Z" finished-at="2016-10-03T04:32:22Z">
       <class name="com.alt.sundaykart.automation.testcases.HomePageTestCases">
-        <test-method status="PASS" signature="setUpSundayKart()[pri:0, instance:com.alt.sundaykart.automation.testcases.HomePageTestCases@5419f379]" name="setUpSundayKart" is-config="true" duration-ms="395" started-at="2016-09-28T09:50:35Z" finished-at="2016-09-28T09:50:35Z">
+        <test-method status="PASS" signature="globalSetUP()[pri:0, instance:com.alt.sundaykart.automation.testcases.HomePageTestCases@d2cc05a]" name="globalSetUP" is-config="true" duration-ms="27985" started-at="2016-10-03T10:01:29Z" finished-at="2016-10-03T10:01:57Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUpSundayKart -->
-        <test-method status="FAIL" signature="loginToSundaykart()[pri:0, instance:com.alt.sundaykart.automation.testcases.HomePageTestCases@5419f379]" name="loginToSundaykart" duration-ms="67359" started-at="2016-09-28T09:50:35Z" finished-at="2016-09-28T09:51:43Z">
+        </test-method> <!-- globalSetUP -->
+        <test-method status="PASS" signature="setUP()[pri:0, instance:com.alt.sundaykart.automation.testcases.HomePageTestCases@d2cc05a]" name="setUP" is-config="true" duration-ms="14" started-at="2016-10-03T10:01:57Z" finished-at="2016-10-03T10:01:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method status="FAIL" signature="loginToSundaykart()[pri:0, instance:com.alt.sundaykart.automation.testcases.HomePageTestCases@d2cc05a]" name="loginToSundaykart" duration-ms="20644" started-at="2016-10-03T10:01:57Z" finished-at="2016-10-03T10:02:18Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: #results (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 10.08 seconds
+Command duration or timeout: 10.12 seconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: 'unknown', revision: 'c7b525d', time: '2016-09-01 14:57:44 -0700'
 System info: host: 'Ashok-PC', ip: '192.168.0.10', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
 Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, appBuildId=20160823121617, version=, platform=XP, proxy={}, command_id=1, specificationLevel=0, acceptSslCerts=false, browserVersion=48.0.2, platformVersion=10.0, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=Firefox, takesScreenshot=true, takesElementScreenshot=true, platformName=Windows_NT, device=desktop}]
-Session ID: 035b22cc-3df2-4806-82f9-9b71fdd7463d
+Session ID: 353657a5-9201-4e8f-9080-429090f66831
 *** Element info: {Using=id, value=results}]]>
             </message>
             <full-stacktrace>
               <![CDATA[java.lang.AssertionError: org.openqa.selenium.NoSuchElementException: Unable to locate element: #results (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 10.08 seconds
+Command duration or timeout: 10.12 seconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: 'unknown', revision: 'c7b525d', time: '2016-09-01 14:57:44 -0700'
 System info: host: 'Ashok-PC', ip: '192.168.0.10', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
 Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, appBuildId=20160823121617, version=, platform=XP, proxy={}, command_id=1, specificationLevel=0, acceptSslCerts=false, browserVersion=48.0.2, platformVersion=10.0, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=Firefox, takesScreenshot=true, takesElementScreenshot=true, platformName=Windows_NT, device=desktop}]
-Session ID: 035b22cc-3df2-4806-82f9-9b71fdd7463d
+Session ID: 353657a5-9201-4e8f-9080-429090f66831
 *** Element info: {Using=id, value=results}
 	at org.testng.Assert.fail(Assert.java:94)
-	at com.alt.sundaykart.automation.testcases.HomePageTestCases.loginToSundaykart(HomePageTestCases.java:63)
+	at com.alt.sundaykart.automation.testcases.HomePageTestCases.loginToSundaykart(HomePageTestCases.java:42)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -66,18 +70,18 @@ Session ID: 035b22cc-3df2-4806-82f9-9b71fdd7463d
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginToSundaykart -->
-        <test-method status="PASS" signature="closeTestCase(org.testng.ITestResult)[pri:0, instance:com.alt.sundaykart.automation.testcases.HomePageTestCases@5419f379]" name="closeTestCase" is-config="true" duration-ms="5" started-at="2016-09-28T09:51:43Z" finished-at="2016-09-28T09:51:43Z">
+        <test-method status="PASS" signature="afterTestCompletes(org.testng.ITestResult)[pri:0, instance:com.alt.sundaykart.automation.testcases.HomePageTestCases@d2cc05a]" name="afterTestCompletes" is-config="true" duration-ms="19" started-at="2016-10-03T10:02:20Z" finished-at="2016-10-03T10:02:20Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=loginToSundaykart status=FAILURE method=HomePageTestCases.loginToSundaykart()[pri:0, instance:com.alt.sundaykart.automation.testcases.HomePageTestCases@5419f379] output={null}]]]>
+                <![CDATA[[TestResult name=loginToSundaykart status=FAILURE method=HomePageTestCases.loginToSundaykart()[pri:0, instance:com.alt.sundaykart.automation.testcases.HomePageTestCases@d2cc05a] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- closeTestCase -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.alt.sundaykart.automation.testcases.HomePageTestCases@5419f379]" name="closeBrowser" is-config="true" duration-ms="1036" started-at="2016-09-28T09:51:44Z" finished-at="2016-09-28T09:51:45Z">
+        </test-method> <!-- afterTestCompletes -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.alt.sundaykart.automation.testcases.HomePageTestCases@d2cc05a]" name="closeBrowser" is-config="true" duration-ms="1854" started-at="2016-10-03T10:02:20Z" finished-at="2016-10-03T10:02:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->

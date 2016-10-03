@@ -8,10 +8,11 @@
     <classes>
       <class name="com.alt.sundaykart.automation.testcases.HomePageTestCases">
         <methods>
-          <include name="setUpSundayKart"/>
-          <include name="closeTestCase"/>
-          <include name="closeBrowser"/>
           <include name="loginToSundaykart"/>
+          <include name="closeBrowser"/>
+          <include name="afterTestCompletes"/>
+          <include name="globalSetUP"/>
+          <include name="setUP"/>
         </methods>
       </class> <!-- com.alt.sundaykart.automation.testcases.HomePageTestCases -->
     </classes>
