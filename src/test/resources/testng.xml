@@ -4,7 +4,7 @@
 
 	<listeners>
 		<listener class-name="com.alt.sundaykart.automation.listeners.ScreenShotListener"></listener>
-		<!-- <listener class-name="com.alt.sundaykart.automation.listeners.RetryListener"></listener> -->
+		<listener class-name="com.alt.sundaykart.automation.listeners.RetryListener"></listener>
 	</listeners>
 
 	<test name="Sundaykart Test">
