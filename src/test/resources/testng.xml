@@ -8,8 +8,7 @@
 	</listeners>
 
 	<test name="Sundaykart Test">
-
-		<classes>
+    	<classes>
 			<class name="com.alt.sundaykart.automation.testcases.HomePageTestCases"></class>
 		</classes>
 	</test> <!-- Test -->
