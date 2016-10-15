@@ -3,6 +3,7 @@
 <suite name="Failed suite [Sundaykart POM Automation Suite]">
   <listeners>
     <listener class-name="com.alt.sundaykart.automation.listeners.ScreenShotListener"/>
+    <listener class-name="com.alt.sundaykart.automation.listeners.RetryListener"/>
   </listeners>
   <test name="Sundaykart Test(failed)">
     <classes>
@@ -10,9 +11,7 @@
         <methods>
           <include name="loginToSundaykart"/>
           <include name="closeBrowser"/>
-          <include name="afterTestCompletes"/>
           <include name="globalSetUP"/>
-          <include name="setUP"/>
         </methods>
       </class> <!-- com.alt.sundaykart.automation.testcases.HomePageTestCases -->
     </classes>

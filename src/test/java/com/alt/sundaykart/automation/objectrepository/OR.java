@@ -11,7 +11,7 @@ public class OR {
    public static final String passwordTxtField="password";
    public static final String loginBtn="login_btn";
    public static final String userOptionsDrpdwn="result";
-   public static final String loginPagePopup = "//*[@id='loginForms']/div/div";
+   public static final String loginPagePopup = "//*[@id='myModel']/div/div/div";
    public static final String cashBackPopUp = "//*[@id='popUpDiv']";
 	
   //end region; 

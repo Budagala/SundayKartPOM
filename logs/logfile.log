@@ -434,3 +434,88 @@ Session ID: 353657a5-9201-4e8f-9080-429090f66831
 2016-10-03 10:02:20,220 INFO  [Log] X 
 2016-10-03 10:02:20,220 INFO  [Log] X 
 2016-10-03 10:02:20,221 INFO  [Log] X 
+2016-10-04 10:26:34,605 INFO  [Log] **************************************************************************************** 
+2016-10-04 10:26:34,638 INFO  [Log] **************************************************************************************** 
+2016-10-04 10:26:34,638 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 loginToSundaykart       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2016-10-04 10:26:34,638 INFO  [Log] **************************************************************************************** 
+2016-10-04 10:26:34,638 INFO  [Log] **************************************************************************************** 
+2016-10-04 10:26:56,195 ERROR [Log] Expection occured while executing test case:loginToSundaykartorg.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //*[@id='loginForms']/div/div' (tried for 10 second(s) with 500 MILLISECONDS interval)
+Build info: version: 'unknown', revision: 'c7b525d', time: '2016-09-01 14:57:44 -0700'
+System info: host: 'Ashok-PC', ip: '192.168.0.10', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, appBuildId=20160823121617, version=, platform=XP, proxy={}, command_id=1, specificationLevel=0, acceptSslCerts=false, browserVersion=48.0.2, platformVersion=10.0, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=Firefox, takesScreenshot=true, takesElementScreenshot=true, platformName=Windows_NT, device=desktop}]
+Session ID: 2a0f4ac3-2246-4cab-a198-65ef0bc1ab6b 
+2016-10-04 10:26:56,240 ERROR [Log] ***** Error loginToSundaykart test has failed ***** 
+2016-10-04 10:26:57,076 INFO  [Log] ***Placed screen shot in F:\SundaykartSelenium\Sundaykart-Automation-POM\Screenshots\ *** 
+2016-10-04 10:26:57,084 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2016-10-04 10:26:57,084 INFO  [Log] X 
+2016-10-04 10:26:57,084 INFO  [Log] X 
+2016-10-04 10:26:57,084 INFO  [Log] X 
+2016-10-04 10:26:57,084 INFO  [Log] X 
+2016-10-04 10:26:57,213 INFO  [Log] **************************************************************************************** 
+2016-10-04 10:26:57,213 INFO  [Log] **************************************************************************************** 
+2016-10-04 10:26:57,213 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 loginToSundaykart       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2016-10-04 10:26:57,213 INFO  [Log] **************************************************************************************** 
+2016-10-04 10:26:57,213 INFO  [Log] **************************************************************************************** 
+2016-10-04 10:26:57,279 ERROR [Log] Expection occured while executing test case:loginToSundaykartorg.openqa.selenium.ElementNotVisibleException: Element is not visible (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 50 milliseconds
+Build info: version: 'unknown', revision: 'c7b525d', time: '2016-09-01 14:57:44 -0700'
+System info: host: 'Ashok-PC', ip: '192.168.0.10', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, appBuildId=20160823121617, version=, platform=XP, proxy={}, command_id=1, specificationLevel=0, acceptSslCerts=false, browserVersion=48.0.2, platformVersion=10.0, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=Firefox, takesScreenshot=true, takesElementScreenshot=true, platformName=Windows_NT, device=desktop}]
+Session ID: 2a0f4ac3-2246-4cab-a198-65ef0bc1ab6b 
+2016-10-04 10:26:57,282 ERROR [Log] ***** Error loginToSundaykart test has failed ***** 
+2016-10-04 10:26:57,773 INFO  [Log] ***Placed screen shot in F:\SundaykartSelenium\Sundaykart-Automation-POM\Screenshots\ *** 
+2016-10-04 10:26:57,774 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2016-10-04 10:26:57,774 INFO  [Log] X 
+2016-10-04 10:26:57,774 INFO  [Log] X 
+2016-10-04 10:26:57,774 INFO  [Log] X 
+2016-10-04 10:26:57,774 INFO  [Log] X 
+2016-10-15 20:07:39,381 INFO  [Log] **************************************************************************************** 
+2016-10-15 20:07:39,466 INFO  [Log] **************************************************************************************** 
+2016-10-15 20:07:39,466 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 Sundaykart Test       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2016-10-15 20:07:39,466 INFO  [Log] **************************************************************************************** 
+2016-10-15 20:07:39,466 INFO  [Log] **************************************************************************************** 
+2016-10-15 20:08:01,410 ERROR [Log] Expection occured while executing test case:loginToSundaykartorg.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //*[@id='loginForms']/div/div' (tried for 10 second(s) with 500 MILLISECONDS interval)
+Build info: version: 'unknown', revision: 'c7b525d', time: '2016-09-01 14:57:44 -0700'
+System info: host: 'Ashok-PC', ip: '192.168.0.10', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, appBuildId=20160922113459, version=, platform=XP, proxy={}, command_id=1, specificationLevel=0, acceptSslCerts=false, processId=5576, browserVersion=49.0.1, platformVersion=10.0, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=firefox, takesScreenshot=true, takesElementScreenshot=true, platformName=windows_nt, device=desktop}]
+Session ID: 686b02d3-f675-4826-9acc-30d80f8554da 
+2016-10-15 20:08:01,465 ERROR [Log] ***** Error loginToSundaykart test has failed ***** 
+2016-10-15 20:08:02,182 INFO  [Log] ***Placed screen shot in F:\SundaykartSelenium\Sundaykart-Automation-POM\Screenshots\ *** 
+2016-10-15 20:08:02,185 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2016-10-15 20:08:02,185 INFO  [Log] X 
+2016-10-15 20:08:02,185 INFO  [Log] X 
+2016-10-15 20:08:02,185 INFO  [Log] X 
+2016-10-15 20:08:02,185 INFO  [Log] X 
+2016-10-15 20:08:02,230 INFO  [Log] **************************************************************************************** 
+2016-10-15 20:08:02,230 INFO  [Log] **************************************************************************************** 
+2016-10-15 20:08:02,230 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 Sundaykart Test       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2016-10-15 20:08:02,230 INFO  [Log] **************************************************************************************** 
+2016-10-15 20:08:02,230 INFO  [Log] **************************************************************************************** 
+2016-10-15 20:08:02,267 ERROR [Log] Expection occured while executing test case:loginToSundaykartorg.openqa.selenium.ElementNotVisibleException:  (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 18 milliseconds
+Build info: version: 'unknown', revision: 'c7b525d', time: '2016-09-01 14:57:44 -0700'
+System info: host: 'Ashok-PC', ip: '192.168.0.10', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, appBuildId=20160922113459, version=, platform=XP, proxy={}, command_id=1, specificationLevel=0, acceptSslCerts=false, processId=5576, browserVersion=49.0.1, platformVersion=10.0, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=firefox, takesScreenshot=true, takesElementScreenshot=true, platformName=windows_nt, device=desktop}]
+Session ID: 686b02d3-f675-4826-9acc-30d80f8554da 
+2016-10-15 20:08:02,273 ERROR [Log] ***** Error loginToSundaykart test has failed ***** 
+2016-10-15 20:08:02,683 INFO  [Log] ***Placed screen shot in F:\SundaykartSelenium\Sundaykart-Automation-POM\Screenshots\ *** 
+2016-10-15 20:08:02,683 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2016-10-15 20:08:02,683 INFO  [Log] X 
+2016-10-15 20:08:02,684 INFO  [Log] X 
+2016-10-15 20:08:02,684 INFO  [Log] X 
+2016-10-15 20:08:02,684 INFO  [Log] X 
+2016-10-15 20:21:52,751 INFO  [Log] **************************************************************************************** 
+2016-10-15 20:21:52,777 INFO  [Log] **************************************************************************************** 
+2016-10-15 20:21:52,778 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 loginToSundaykart       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2016-10-15 20:21:52,778 INFO  [Log] **************************************************************************************** 
+2016-10-15 20:21:52,778 INFO  [Log] **************************************************************************************** 
+2016-10-15 20:22:03,309 INFO  [Log] Login in to sundaykart 
+2016-10-15 20:22:04,220 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2016-10-15 20:22:04,220 INFO  [Log] X 
+2016-10-15 20:22:04,220 INFO  [Log] X 
+2016-10-15 20:22:04,220 INFO  [Log] X 
+2016-10-15 20:22:04,220 INFO  [Log] X 
