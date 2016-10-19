@@ -6,8 +6,9 @@
 		<listener class-name="com.alt.sundaykart.automation.listeners.ScreenShotListener"></listener>
 		<listener class-name="com.alt.sundaykart.automation.listeners.RetryListener"></listener>
 	</listeners>
-
+     
 	<test name="Sundaykart Test">
+	<parameter name="browser" value="firefox"></parameter>
     	<classes>
 			<class name="com.alt.sundaykart.automation.testcases.HomePageTestCases"></class>
 		</classes>

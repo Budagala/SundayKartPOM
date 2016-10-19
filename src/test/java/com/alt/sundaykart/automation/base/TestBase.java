@@ -7,7 +7,9 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Parameters;
 
+import com.alt.sundaykart.automation.utility.ExcelUtilities;
 import com.alt.sundaykart.automation.utility.Log;
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
@@ -18,11 +20,13 @@ public class TestBase {
 	protected ExtentReports sundayKartreport;
 	protected ExtentTest scTestCases;
 	
+	@Parameters({"browser"})
 	@BeforeClass
-	public void globalSetUP()
+	public void globalSetUP(String browser)
 	{
 		sundayKartreport = ExtentManager.instance();	
-		driver = BrowserFactory.openBrowser("firefox", Constants.project_url);
+		driver = BrowserFactory.openBrowser(browser, Constants.project_url);
+		ExcelUtilities.setExcelFile(Constants.testDataFilePath, "TestData");
 	}
 	
 	@BeforeMethod

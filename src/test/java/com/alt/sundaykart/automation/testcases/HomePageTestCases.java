@@ -4,8 +4,6 @@ import java.lang.reflect.Method;
 
 import org.junit.Assert;
 import org.openqa.selenium.support.PageFactory;
-import org.testng.ITest;
-import org.testng.ITestContext;
 import org.testng.annotations.Test;
 
 import com.alt.sundaykart.automation.base.Constants;
@@ -26,25 +24,26 @@ public class HomePageTestCases extends TestBase {
 
 			Log.startTestCase(method.getName());
 			scTestCases = sundayKartreport.startTest(method.getName(), "Login to SundayKart,Severity:Low");
-			scTestCases.log(LogStatus.INFO, "Opened the sundaykarturl in firefox browser");
+			scTestCases.log(LogStatus.INFO, "Open the SundayKart URL","SundayKart Home Page is displayed");
 			HomePage homepage = PageFactory.initElements(driver, HomePage.class);
 			homepage.cashBackPopupClose();
-			scTestCases.log(LogStatus.INFO, "closed the Cashback popup close");
+			scTestCases.log(LogStatus.INFO, "Click on close button on CashBackPopup","Successfully Closed the Popup");
 			homepage.loginSundaykart(TestData.username, TestData.password);
 			homepage.waitforUserLogin();
 			Log.info("Login in to sundaykart");
 			scTestCases.log(LogStatus.INFO, "Login in to sundaykart");
-			scTestCases.log(LogStatus.INFO, scTestCases
+			scTestCases.log(LogStatus.INFO,"Successfully Login to Sundaykart", scTestCases
 					.addScreenCapture(ExtentManager.CaptureScreen(driver, Constants.screenShot_Path + "loginpage")));
 			homepage.cashBackPopupClose();
 			Assert.assertTrue(homepage.verifyUserLogin());
-			scTestCases.log(LogStatus.PASS, "Test Case is passed");
+			scTestCases.log(LogStatus.PASS,"Verify user is login to sundaykart" ,"Test Case is passed");
 			
 
 		} catch (Exception e) {
 
 			Log.error("Expection occured while executing test case:loginToSundaykart" + e.toString());
-			scTestCases.log(LogStatus.ERROR, e.toString());
+			scTestCases.log(LogStatus.ERROR,scTestCases
+					.addScreenCapture(ExtentManager.CaptureScreen(driver, Constants.screenShot_Path + "loginpage")),e.toString());
 			org.testng.Assert.fail(e.toString());
 
 		}

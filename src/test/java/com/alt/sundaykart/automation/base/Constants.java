@@ -11,7 +11,7 @@ public class Constants {
     public static final String screenShot_Path="F:\\SundaykartSelenium\\Sundaykart-Automation-POM\\Screenshots\\";
     public static final String reprotConfigFilePath="F:\\SundaykartSelenium\\Sundaykart-Automation-POM\\src\\test\\resources\\ReportConfig.xml";
     public static final String logConfigxmlPath="F:\\SundaykartSelenium\\Sundaykart-Automation-POM\\src\\test\\resources\\log4j.xml";
-
-    
-    
+    public static final String testDataFilePath="F:\\SundaykartSelenium\\Sundaykart-Automation-POM\\TestData\\TestData.xlsx";
+    public static final int col_TestCaseId=0;
+   
 }

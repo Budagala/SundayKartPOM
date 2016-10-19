@@ -4,6 +4,7 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 
@@ -25,7 +26,9 @@ public class BrowserFactory {
 		} else if (browserName.equalsIgnoreCase("chrome")) {
 
 			System.setProperty("webdriver.chrome.driver", Constants.chrome_browser);
-			driver = new ChromeDriver();
+			ChromeOptions options =new ChromeOptions();
+			options.addArguments("chrome.switches","--disable-extensions");
+			driver = new ChromeDriver(options);
 			driver.get(url);
 			driver.manage().window().maximize();
 			driver.manage().timeouts().implicitlyWait(Constants.wait_time, TimeUnit.SECONDS);
